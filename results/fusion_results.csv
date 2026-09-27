@@ -1,0 +1,7 @@
+Stratégie,Dataset,Accuracy,Precision,Recall,F1,AUC-ROC
+Hard Vote,CIC-MalMem,1.0,1.0,1.0,1.0,1.0
+Soft Vote,CIC-MalMem,1.0,1.0,1.0,1.0,1.0
+Weighted Vote,CIC-MalMem,1.0,1.0,1.0,1.0,1.0
+Hard Vote,EMBER,0.9562,0.9508,0.9622,0.9564,0.9796
+Soft Vote,EMBER,0.959,0.9563,0.9619,0.9591,0.9907
+Weighted Vote,EMBER,0.9591,0.9563,0.962,0.9592,0.9907

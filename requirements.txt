@@ -1,0 +1,42 @@
+﻿# F-SCANER - Project Dependencies
+
+# Core scientific computing
+numpy==2.2.5
+pandas==2.3.3
+scipy==1.15.3
+
+# Machine Learning
+scikit-learn==1.7.1
+xgboost==1.7.6
+lightgbm==4.6.0
+optuna==4.8.0
+joblib==1.5.3
+shap==0.49.1
+
+# Deep Learning
+tensorflow==2.21.0
+
+# Data visualization
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.7.0
+
+# EMBER
+ember @ git+https://github.com/elastic/ember.git@d97a0b523de02f3fe5ea6089d080abacab6ee931
+
+# API / Web application
+fastapi==0.136.1
+uvicorn==0.46.0
+streamlit==1.57.0
+requests==2.32.5
+python-dotenv==1.2.2
+python-multipart==0.0.27
+
+# Object storage
+minio==7.2.20
+
+# PDF report generation
+reportlab==4.5.0
+
+# Progress bars
+tqdm==4.67.3

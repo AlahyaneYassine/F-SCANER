@@ -1,0 +1,17 @@
+Dataset,Modèle,F1,AUC-ROC,Type
+CIC-MalMem,RF,1.0,1.0,Individuel
+EMBER,RF,0.9096,0.9709,Individuel
+CIC-MalMem,XGBoost,0.9998,1.0,Individuel
+EMBER,XGBoost,0.957,0.9905,Individuel
+CIC-MalMem,LightGBM,1.0,1.0,Individuel
+EMBER,LightGBM,0.9513,0.9891,Individuel
+CIC-MalMem,CNN1D,1.0,1.0,Individuel
+EMBER,CNN1D,0.9516,0.9889,Individuel
+CIC-MalMem,FT-Transformer,0.9999,1.0,Individuel
+EMBER,FT-Transformer,0.9242,0.9789,Individuel
+CIC-MalMem,Hard Vote,1.0,1.0,★ Fusion
+CIC-MalMem,Soft Vote,1.0,1.0,★ Fusion
+CIC-MalMem,Weighted Vote,1.0,1.0,★ Fusion
+EMBER,Hard Vote,0.9564,0.9796,★ Fusion
+EMBER,Soft Vote,0.9591,0.9907,★ Fusion
+EMBER,Weighted Vote,0.9592,0.9907,★ Fusion

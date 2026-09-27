@@ -1,0 +1,5 @@
+Model,Dataset,Threshold,Accuracy,Precision,Recall,F1,AUC-ROC
+CNN1D,CIC-MalMem,0.397,1.0,1.0,1.0,1.0,1.0
+CNN1D,EMBER,0.478,0.9514,0.9474,0.9558,0.9516,0.9889
+FT-Transformer,CIC-MalMem,0.1,0.9999,1.0,0.9998,0.9999,1.0
+FT-Transformer,EMBER,0.414,0.924,0.9227,0.9256,0.9242,0.9789

@@ -1,0 +1,22 @@
+{
+    "CNN1D_CIC-MalMem": {
+        "threshold": 0.397,
+        "F1_test": 1.0,
+        "AUC_test": 1.0
+    },
+    "CNN1D_EMBER": {
+        "threshold": 0.478,
+        "F1_test": 0.9516,
+        "AUC_test": 0.9889
+    },
+    "FT-Transformer_CIC-MalMem": {
+        "threshold": 0.1,
+        "F1_test": 0.9999,
+        "AUC_test": 1.0
+    },
+    "FT-Transformer_EMBER": {
+        "threshold": 0.414,
+        "F1_test": 0.9242,
+        "AUC_test": 0.9789
+    }
+}

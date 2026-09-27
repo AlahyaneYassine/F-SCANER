@@ -1,0 +1,7 @@
+Model,Dataset,F1_baseline,F1_val,F1_test,Gain_tuning,Gain_final
+RF,CIC-MalMem,1.0,0.9999,1.0,-0.0001,0.0
+RF,EMBER,0.9557,0.947,0.9096,-0.0087,-0.0461
+XGBoost,CIC-MalMem,0.9999,1.0,0.9998,0.0001,-0.0001
+XGBoost,EMBER,0.9437,1.0,0.957,0.0563,0.0133
+LightGBM,CIC-MalMem,1.0,1.0,1.0,0.0,0.0
+LightGBM,EMBER,0.9252,0.9851,0.9513,0.0599,0.0261
