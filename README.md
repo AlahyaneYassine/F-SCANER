@@ -1083,8 +1083,6 @@ The platform is functional for research and demonstration purposes but is not in
 
 **Alahyane Yassine**
 
-**Elkarouani Elhassani**
-
 **EMSI — 2025/2026**
 
 ---
