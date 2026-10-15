@@ -705,65 +705,28 @@ The application provides local defaults for these paths.
 
 The complete local platform requires three services/processes.
 
-## Terminal 1 — MinIO
-
-Install MinIO separately.
+## Terminal 1: MinIO
 
 From the project root:
 
-```powershell
-cd C:\PFA_Malware
-minio server .\minio_data --console-address :9001
+```
+minio server ./minio_data --console-address :9001
 ```
 
-MinIO endpoints:
+## Terminal 2: FastAPI
 
-```text
-API:
-http://localhost:9000
-
-Console:
-http://localhost:9001
 ```
-
----
-
-## Terminal 2 — FastAPI
-
-```powershell
 conda activate malware_env
-cd C:\PFA_Malwarepi
-
+cd api
 python -m uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
-API:
+## Terminal 3: Streamlit
 
-```text
-http://localhost:8000
 ```
-
-Swagger documentation:
-
-```text
-http://localhost:8000/docs
-```
-
----
-
-## Terminal 3 — Streamlit
-
-```powershell
 conda activate malware_env
-cd C:\PFA_Malwarepi
-
+cd api
 streamlit run app.py --server.port 8501
-```
-
-Interface:
-
-```text
-http://localhost:8501
 ```
 
 ---
