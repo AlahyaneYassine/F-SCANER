@@ -337,7 +337,7 @@ The current decision rule is:
 
 ```text
 Confidence >= 0.50  → MALWARE
-Confidence <  0.50  → BENIN
+Confidence <  0.50  → BENIGN
 ```
 
 ---
@@ -820,7 +820,7 @@ A typical response contains information such as:
     "filename": "sample.exe",
     "sha256": "...",
     "size": 123456,
-    "verdict": "BENIN",
+    "verdict": "BENIGN",
     "confidence": 40.5,
     "is_malware": false,
     "votes": [],
