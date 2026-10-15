@@ -1089,6 +1089,6 @@ The platform is functional for research and demonstration purposes but is not in
 
 # License
 
-No open-source license has been defined for this repository yet.
+This project is released under the [MIT License](LICENSE).
 
 Third-party libraries, datasets and external services remain subject to their respective licenses and terms of use.
